@@ -57,6 +57,8 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         int inputNumber = sc.nextInt();
+        sc.close();
+
 
         System.out.println("You entered: " + inputNumber);
 
@@ -67,6 +69,12 @@ public class Main {
         }
 
         System.out.println("The final answer is: " + nextNumber);
+
+
+
+
+
+
 
 
 
