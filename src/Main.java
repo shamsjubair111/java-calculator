@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -49,26 +50,54 @@ public class Main {
 //        fibonacci numbers
 
 
-        int firstNumber = 0;
-        int secondNumber = 1;
-        int nextNumber = 0;
+//        int firstNumber = 0;
+//        int secondNumber = 1;
+//        int nextNumber = 0;
+//
+//        System.out.println("Enter The index of number you want to find: ");
+//
+//        Scanner sc = new Scanner(System.in);
+//        int inputNumber = sc.nextInt();
+//        sc.close();
+//
+//
+//        System.out.println("You entered: " + inputNumber);
+//
+//        for(int i = 0; i<=inputNumber-2; i++){
+//            nextNumber  = firstNumber + secondNumber;
+//            firstNumber = secondNumber;
+//            secondNumber = nextNumber;
+//        }
+//
+//        System.out.println("The final answer is: " + nextNumber);
 
-        System.out.println("Enter The index of number you want to find: ");
 
-        Scanner sc = new Scanner(System.in);
-        int inputNumber = sc.nextInt();
-        sc.close();
+//        number n = 1385757879; how many times 7 occurs in n. print it out
+
+            int n = 1385757879;
+            int count = 0;
+            String convertedNumber = n+"";
+
+            for(int i=0 ;i<convertedNumber.length();i++){
+                if(n % 10 == 7){
+                    count++;
+                }
+                n = n/10;
+            }
 
 
-        System.out.println("You entered: " + inputNumber);
 
-        for(int i = 0; i<=inputNumber-2; i++){
-            nextNumber  = firstNumber + secondNumber;
-            firstNumber = secondNumber;
-            secondNumber = nextNumber;
-        }
+        System.out.println(count);
 
-        System.out.println("The final answer is: " + nextNumber);
+
+
+
+
+
+
+
+
+
 
 
 
