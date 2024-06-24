@@ -74,20 +74,34 @@ public class Main {
 
 //        number n = 1385757879; how many times 7 occurs in n. print it out
 
-            int n = 1385757879;
-            int count = 0;
-            String convertedNumber = n+"";
+//            int n = 1385757879;
+//            int count = 0;
+//            String convertedNumber = n+"";
+//
+//            for(int i=0 ;i<convertedNumber.length();i++){
+//                if(n % 10 == 7){
+//                    count++;
+//                }
+//                n = n/10;
+//            }
+//
+//
+//
+//        System.out.println(count);
 
-            for(int i=0 ;i<convertedNumber.length();i++){
-                if(n % 10 == 7){
-                    count++;
-                }
-                n = n/10;
-            }
+
+//        String firstOne = "Hello World";
+//        String secondOne = "Hello World";
+//
+//        if(firstOne.equals(secondOne)){
+//            System.out.println(true);
+//        }
+//        else{
+//            System.out.println(false);
+//        }
 
 
-
-        System.out.println(count);
+        
 
 
 
