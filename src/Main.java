@@ -101,31 +101,21 @@ public class Main {
 //        }
 
 
-        
+//given number is 23579 now reverse it and print the answer
 
+        int originalNUmber = 23579;
+        String convertedNumber = originalNUmber+"";
+        String reverseNumber = "";
+        for(int i= convertedNumber.length() ; i > 0 ; i--){
+            int separatedNumber = originalNUmber % 10;
+            reverseNumber = reverseNumber + separatedNumber;
+            originalNUmber = originalNUmber / 10;
 
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println("The reversed number is: " + Integer.parseInt(reverseNumber));
 
         
-
-
 
 
     }
