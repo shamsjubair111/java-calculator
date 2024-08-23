@@ -6,6 +6,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        int sum = 0;
+        System.out.println("Enter Your Numbers");
+        Scanner sc = new Scanner(System.in);
+        while(true){
+            String input = sc.next();
+            if(input.equals("x")){
+                break;
+            }
+            else{
+                sum = sum+ Integer.parseInt(input);
+            }
+        }
+        System.out.println("The sum is: " + sum);
 
     }
 }
