@@ -169,11 +169,170 @@ public class Main {
 //            System.out.println("Second Number is not armstrong ");
 //        }
 
+//        int salary  = 10000;
+//
+//        if(salary > 10000){
+//            salary = salary+2000;
+//        }
+//        else if(salary < 10000){
+//            salary = salary + 1000;
+//        }
+//        else{
+//            salary = salary + 0;
+//        }
+//        System.out.println("Salary is: " + salary);
+
+//        System.out.println("Enter Three Numbers: ");
+//        Scanner sc = new Scanner(System.in);
+//        int first = sc.nextInt();
+//        int second = sc.nextInt();
+//        int third = sc.nextInt();
+////
+//        if(first > second && first > third) {
+//            System.out.println(first  + " is largest");
+//        }
+//        else if(second > first && first > third) {
+//            System.out.println(second + " is largest");
+//        }
+//        else if(third > first && third > second){
+//            System.out.println(third + " is largest");
+//        }
+//        else{
+//            System.out.println("make sure than you dont give any equal numbers");
+//        }
+
+//        int x = (Math.max(first, second));
+//
+//        System.out.println(Math.max(x, third));
+
+//        System.out.println("Enter your input");
+//        Scanner sc1 = new Scanner(System.in);
+//        char input1 = sc1.next().charAt(0);
+//        if(input1  >= 'A' && input1 <= 'Z') {
+//            System.out.println("Capital");
+//        }
+//        else{
+//            System.out.println("Small");
+//        }
+
+
+//        int firstNum = 0;
+//        int secondNum = 1;
+//        int n = 7;
+//        System.out.print(firstNum + " " + secondNum);
+//        for(int count = 2; count <= n; count++) {
+//            int sum = firstNum + secondNum;
+//            System.out.print(" " + sum);
+//            firstNum = secondNum;
+//            secondNum = sum;
+//        }
+
+
+
+//        long number = 1385757879;
+//
+//        int count = 0;
+//
+//   while(number > 0){
+//       if(number % 10 ==7){
+//           count++;
+//           number = number / 10;
+//       }
+//       else{
+//           number = number / 10;
+//       }
+//   }
+//        System.out.println(count);
+
+
+
+//        while(number > 0){
+//            if(number % 10 == 7){
+//                count++;
+//            }
+//            number /= 10;
+//        }
+//        System.out.println(count);
 
 
 
 
+//        int number  = 23597;
+//        String text = "";
+//        int result = 0;
 
+//        String text = String.valueOf(number);
+//        String result = "";
+//
+//        System.out.println(text);
+//        for(int i = text.length()-1 ; i >= 0; i-- ) {
+//            result = result + text.charAt(i);
+//        }
+//        System.out.println(result);
+
+//        while(number > 0){
+//            int character = number %10;
+//            number = number/10;
+//            text = text + character;
+//        }
+//        System.out.println(text);
+
+//        while(number > 0){
+//            int dum =  number%10;
+//            result = result*10+dum;
+//            number = number/10;
+//        }
+//        System.out.println(result);
+
+// building a calculator program
+
+
+        System.out.println("Enter + - * / % as operators or x or X to terminate the program");
+        Scanner scanner = new Scanner(System.in);
+
+       int result = 0;
+
+        while(true){
+            char operator = scanner.next().charAt(0);
+            if(operator == 'x' || operator == 'X'){
+                break;
+            }
+            else if(operator == '+' || operator == '-' || operator == '*' || operator == '/' || operator == '%'){
+                System.out.println("Enter First Number");
+                int firstNum  = scanner.nextInt();
+                System.out.println("Enter Second Number");
+                int secondNum = scanner.nextInt();
+
+                if(operator == '+'){
+                     result = firstNum + secondNum;
+
+
+                }
+                else if(operator == '-'){
+                     result = firstNum - secondNum;
+                }
+                else if(operator == '*'){
+                     result = firstNum * secondNum;
+                }
+                else if(operator == '/'){
+                    if(secondNum != 0){
+                         result = firstNum / secondNum;
+                    }
+                    else{
+                        System.out.println("Can not divide " + firstNum  + " by " + secondNum);
+                    }
+                }
+                else if(operator == '%'){
+                     result  = firstNum % secondNum;
+                }
+
+                System.out.println("Result is: " + result);
+            }
+            else{
+                System.out.println("Invalid Operator");
+                break;
+            }
+        }
 
 
     }
