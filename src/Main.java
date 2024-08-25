@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -228,7 +230,6 @@ public class Main {
 //        }
 
 
-
 //        long number = 1385757879;
 //
 //        int count = 0;
@@ -245,7 +246,6 @@ public class Main {
 //        System.out.println(count);
 
 
-
 //        while(number > 0){
 //            if(number % 10 == 7){
 //                count++;
@@ -253,8 +253,6 @@ public class Main {
 //            number /= 10;
 //        }
 //        System.out.println(count);
-
-
 
 
 //        int number  = 23597;
@@ -337,7 +335,7 @@ public class Main {
 //        int number = 1234567;
 //        String result = String.valueOf(number);
 //        String finalResult = "";
-        int revNum = 0;
+//        int revNum = 0;
 //        System.out.println(number);
 //
 //        for(int i = result.length() -1 ; i>=0;i--){
@@ -362,46 +360,255 @@ public class Main {
 
 //        Calculator problem once again
 
-        System.out.println("Enter The operation First and then two numbers to perform the operation and see the result:");
-        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter The operation First and then two numbers to perform the operation and see the result:");
+//        Scanner scanner = new Scanner(System.in);
+//
+//      while(true){
+//          char operator = scanner.next().charAt(0);
+//          if(operator == 'x'){
+//              break;
+//          }
+//          else if(operator == '+' || operator == '-' || operator == '*' || operator == '/' || operator == '%'){
+//              System.out.println("Enter First Number: ");
+//              int firstNum = scanner.nextInt();
+//              System.out.println("Enter Second Number: ");
+//              int secondNum = scanner.nextInt();
+//              if(operator == '+'){
+//                  System.out.println(firstNum + secondNum);
+//              }
+//              else if(operator == '-'){
+//                  System.out.println(firstNum - secondNum);
+//              }
+//              else if(operator == '*'){
+//                  System.out.println(firstNum * secondNum);
+//              }
+//              else if(operator == '/'){
+//                 if(secondNum != 0){
+//                     System.out.println(firstNum / secondNum);
+//                 }
+//                 else{
+//                     System.out.println("Small Number Can't be Divided by Large Number");
+//                 }
+//              }
+//              else if(operator == '%'){
+//                  System.out.println(firstNum % secondNum);
+//              }
+//          }
+//          else{
+//              System.out.println("Invalid Operation");
+//              break;
+//          }
+//      }
 
-      while(true){
-          char operator = scanner.next().charAt(0);
-          if(operator == 'x'){
-              break;
-          }
-          else if(operator == '+' || operator == '-' || operator == '*' || operator == '/' || operator == '%'){
-              System.out.println("Enter First Number: ");
-              int firstNum = scanner.nextInt();
-              System.out.println("Enter Second Number: ");
-              int secondNum = scanner.nextInt();
-              if(operator == '+'){
-                  System.out.println(firstNum + secondNum);
-              }
-              else if(operator == '-'){
-                  System.out.println(firstNum - secondNum);
-              }
-              else if(operator == '*'){
-                  System.out.println(firstNum * secondNum);
-              }
-              else if(operator == '/'){
-                 if(secondNum != 0){
-                     System.out.println(firstNum / secondNum);
-                 }
-                 else{
-                     System.out.println("Small Number Can't be Divided by Large Number");
-                 }
-              }
-              else if(operator == '%'){
-                  System.out.println(firstNum % secondNum);
-              }
-          }
-          else{
-              System.out.println("Invalid Operation");
-              break;
-          }
-      }
+//        Area of a circle
+
+//        System.out.println("Enter radius to find area of a circle: ");
+//        Scanner scanner = new Scanner(System.in);
+//        float radius = scanner.nextFloat();
+//
+//        double area = (3.1416 * radius);
+//
+//        System.out.println("The area of the circle for your given raidus (" + radius + ")" +  " is " + area);
+
+
+//        area of a triangle
+
+//        System.out.println("Enter Base of The Triangle");
+//        Scanner scanner = new Scanner(System.in);
+//        float base = scanner.nextFloat();
+//        System.out.println("Enter Height of The Triangle");
+//        float height = scanner.nextFloat();
+//
+//        double area = (base * height) / 2;
+//
+//        System.out.println("The area of the Triangle for your given base (" + base + ") and height (" + height + ")" +  " is " + area);
+
+//        Area of Rectangle
+
+//        System.out.println("Enter length of the rectangle");
+//
+//        Scanner input = new Scanner(System.in);
+//        float length = input.nextFloat();
+//        System.out.println("Enter width of the rectangle");
+//        float width = input.nextFloat();
+//        double area  = (length * width);
+//
+//        System.out.println("Area is : " + area);
+
+//        Area Of Isosceles Triangle
+
+//        System.out.println("Enter base of the triangle: ");
+//        Scanner scanner = new Scanner(System.in);
+//        float base = scanner.nextFloat();
+//        System.out.println("Enter height of the triangle: ");
+//        float height = scanner.nextFloat();
+//        double area = (base * height) / 2;
+//        System.out.println("The area of the triangle is " + area);
+
+//        Area Of Parallelogram
+
+//        System.out.println("Enter base of parallelogram");
+//        Scanner scanner = new Scanner(System.in);
+//        float base = scanner.nextFloat();
+//        System.out.println("Enter height of parallelogram");
+//        float height = scanner.nextFloat();
+//        double area = base * height;
+//        System.out.println("Area of parallelogram is " + area);
+
+//        Area Of equilateral triangle.
+
+//        System.out.println("Enter length of one side: ");
+//        Scanner scanner = new Scanner(System.in);
+//        float length = scanner.nextFloat();
+//
+//        double area = Math.sqrt(3)/4*(Math.pow(length,2));
+//
+//        System.out.println("Area is: " + area);
+
+//        Fibonacci Series In Java Programs
+
+//        int firstNumber = 0;
+//        int secondNumber = 1;
+//        int nextNumber = 0;
+//        System.out.println("Enter for how many numbers you want to find the fibonacci series: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int limit = scanner.nextInt();
+//        System.out.print("Your Desired Fibonacci Series is: " + firstNumber + " " + secondNumber);
+//
+//        for(int i = 2; i<=limit;i++){
+//            nextNumber = firstNumber + secondNumber;
+//            System.out.print(" " + nextNumber);
+//            firstNumber = secondNumber;
+//            secondNumber = nextNumber;
+//        }
+
+//        Subtract the Product and Sum of Digits of an Integer
+
+//        leetcode (1281)
+
+//        int sum = 0;
+//        int pro = 1;
+//        int rem= 0;
+//        System.out.println("Enter any nymber: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int n = scanner.nextInt();
+//
+//        while(n > 0){
+//            rem = n % 10;
+//            sum = sum + rem;
+//            pro = pro * rem;
+//            n = n / 10;
+//        }
+//        System.out.println("The result is: " + (pro - sum));
+
+//        Input a number and print all the factors of that number (use loops).
+
+//        System.out.println("Enter your number: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        System.out.println(number);
+//
+//        System.out.print("The factors are: " + 1);
+//         for(int i = 2 ; i<=number/2 ;i++)
+//        {
+//            if(number % i == 0){
+//                System.out.print(" " + i);
+//            }
+//        }
+//        System.out.println(" " + number);
+
+//
+//        System.out.println("Enter your number: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        System.out.println(number);
+//        List<Integer> list = new ArrayList<>();
+//        for(int i = 1 ; i<=Math.sqrt(number) ;i++)
+//        {
+//            if(number%i==0){
+//                if(i==(number/i))list.add(i);
+//                else {
+//                    list.add(i);
+//                    list.add(number / i);
+//                }
+//            }
+//        }
+//        Collections.sort(list);
+//        list.stream().forEach(System.out::println);
+
+//        Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)
+
+//        System.out.println("Keep entering digit and your numbers will get added or enter 0 to exit the program and see the answer:");
+//        Scanner scanner = new Scanner(System.in);
+//        long result = 0;
+//        while (true) {
+//            int input = scanner.nextInt();
+//
+//            if (input == 0) {
+//                break;
+//            } else {
+//                result = result + input;
+//
+//            }
+//
+//
+//        }
+//        System.out.println("Result is: " + result);
+
+//        Take integer inputs till the user enters 0 and print the largest number from all.
+//        System.out.println("Keep entering digit or enter 0 to exit the program and see the largest number:");
+//        Scanner scanner = new Scanner(System.in);
+//        int largest = 0;
+//        while(true){
+//            int number = scanner.nextInt();
+//            if(number == 0){
+//                break;
+//            }
+//            else{
+//                if(number > largest){
+//                    largest = number;
+//                }
+//            }
+//        }
+//        System.out.println("Largest number: " + largest);
+
+//        Factorial Program in java
+
+//        System.out.println("Enter Your Number: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//
+//        long result =  fact(number);
+//        System.out.println("Factorial of: " + number + " is: " + result);
+//
+//    }
+//
+//
+//        with recursion
+//    public static int fact(int n) {
+//if(n == 0){
+//    return 1;
+//}
+//        return (n*fact(n-1)) ;
+//    }
+
+//        without recusrion
+
+//        System.out.println("Enter Your Number: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        int result = 1;
+//
+//        while(number >0){
+//            result = result * number;
+//            number--;
+//        }
+//        System.out.println(result);
+
+
+
 
 
     }
+
 }
