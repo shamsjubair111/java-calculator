@@ -606,6 +606,21 @@ public class Main {
 //        System.out.println(result);
 
 
+        System.out.println("Keep entering numbers or enter 0 to find maximum from your given numbers");
+        Scanner scanner = new Scanner(System.in);
+        int largest = 0;
+        while(true){
+            int input = scanner.nextInt();
+            if(input == 0){
+                break;
+            }
+            else{
+                if(input > largest){
+                    largest = input;
+                }
+            }
+        }
+        System.out.println(largest);
 
 
 
