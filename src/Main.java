@@ -606,21 +606,135 @@ public class Main {
 //        System.out.println(result);
 
 
-        System.out.println("Keep entering numbers or enter 0 to find maximum from your given numbers");
-        Scanner scanner = new Scanner(System.in);
-        int largest = 0;
-        while(true){
-            int input = scanner.nextInt();
-            if(input == 0){
-                break;
-            }
-            else{
-                if(input > largest){
-                    largest = input;
-                }
-            }
-        }
-        System.out.println(largest);
+//        System.out.println("Keep entering numbers or enter 0 to find maximum from your given numbers");
+//        Scanner scanner = new Scanner(System.in);
+//        int largest = 0;
+//        while(true){
+//            int input = scanner.nextInt();
+//            if(input == 0){
+//                break;
+//            }
+//            else{
+//                if(input > largest){
+//                    largest = input;
+//                }
+//            }
+//        }
+//        System.out.println(largest);
+
+//        Calculate average of numbers
+
+//        System.out.println("Keep entering you number or 0 to exit program: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int numberCount = 0;
+//        float sum = 0;
+//        while(true) {
+//            int input = scanner.nextInt();
+//
+//         if(input == 0) {
+//             break;
+//         }
+//         else{
+//             sum = sum+input;
+//             numberCount++;
+//         }
+//
+//        }
+//
+//        System.out.println("Average of " + numberCount + " numbers is " + sum/numberCount);
+
+
+
+//        int x1 = 3;
+//        int x2 = 7;
+//        int y1 = 4;
+//        int y2 = 1;
+//
+//        double distancce = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+//
+//        System.out.println("Your Answer is: " + distancce);
+
+//        System.out.println("Enter Number of Courses: ");
+//        Scanner sc = new Scanner(System.in);
+//        int numCourses = sc.nextInt();
+//        int creditHour = 0;
+//        float result  = 0;
+//        float midResult;
+//
+//        while(numCourses>0) {
+//            System.out.println("Enter Your Grade : ");
+//            float grade = sc.nextFloat();
+//            System.out.println("Enter Your Credit Hour : ");
+//            int credit = sc.nextInt();
+//            midResult = grade * credit;
+//            result  = result + midResult;
+//            creditHour = creditHour + credit;
+//            numCourses--;
+//
+//        }
+//
+//        System.out.println("Your CGPA is: " + result/creditHour);
+
+//        calculate t he commission percentage
+
+//        System.out.println("Enter Actual Amount");
+//        Scanner sc = new Scanner(System.in);
+//        float amount = sc.nextFloat();
+//        System.out.println("Enter Commission AMout:");
+//        float commission = sc.nextFloat();
+//         double commmissionPercent = (commission * 100) / amount;
+//        System.out.println("Commission Percent: " + commmissionPercent);
+
+
+
+
+//        int p = 450000;
+//        float r = 0.128f;
+//        int n = 4;
+//        int t = 5;
+//
+//        double compundInterest = p*Math.pow((1+(double)(r/n)),(n*t));
+//        System.out.println("Coumpound Interest is: " + compundInterest);
+
+
+//        Calculate sumof N numbers
+
+//        System.out.println("Keep entering numbers or 0 to terminate the program: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int sum = 0;
+//        while (true){
+//            int number = scanner.nextInt();
+//            if(number == 0){
+//                System.out.println("Program Ended");
+//                break;
+//            }
+//            else{
+//                sum += number;
+//            }
+//        }
+//
+//        System.out.println("The sum is: " + sum);
+
+
+//       armstrong number
+
+//        System.out.println("Enter your number to check whether it is armstrong or not: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int input = scanner.nextInt();
+//        double sum = 0;
+//        String inputCount = String.valueOf(input);
+//        while (input >0 ) {
+//            int midNumber = input % 10;
+//            sum  = sum + Math.pow(midNumber,inputCount.length());
+//            input = input / 10;
+//        }
+//
+//       if(sum == Integer.parseInt(inputCount)){
+//           System.out.println("Armstrong Number");
+//       }
+//       else{
+//           System.out.println("Not Armstrong Number");
+//       }
 
 
 
