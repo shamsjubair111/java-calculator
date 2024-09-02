@@ -737,7 +737,47 @@ public class Main {
 //       }
 
 
+//        given n = 5 and r = 3. find npr and ncr
+
+//        int n = 5;
+//        int r = 3;
+//        int factn =  getFactorial(n);
+//        int factr = getFactorial(r);
+//        int factMid = getFactorial(n-r);
+//
+//        int npr = factn/factMid;
+//        int ncr = factn/(factr*factMid);
+//
+//        System.out.println("The value of npr is: " + npr);
+//        System.out.println("The value of ncr is: " + ncr);
+
+//        Reverse A String In Java
+
+//        String name = "Jubair";
+//        String reversedString = "";
+//
+//        for(int i = name.length()-1; i>=0; i--) {
+//            reversedString = reversedString + name.charAt(i);
+//        }
+//        System.out.println(reversedString);
+
+//        Find if a number is palindrome or not
+
+        
 
     }
+
+//
+//    public static int getFactorial(int data){
+//
+//        int factorial = 1;
+//        while(data > 0){
+//            factorial  = factorial * data;
+//            data--;
+//        }
+//
+//        return factorial;
+//
+//    }
 
 }
