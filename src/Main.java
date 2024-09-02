@@ -737,6 +737,159 @@ public class Main {
 //       }
 
 
+//        check palindrome number again practise
+
+//        System.out.println("Enter number: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        String inputString = String.valueOf(number);
+//        int left = 0;
+//        int right = inputString.length()-1;
+//        boolean isArmstrong = false;
+//
+//        while(left != right) {
+//            if(inputString.charAt(left) == inputString.charAt(right)) {
+//                isArmstrong = true;
+//            }
+//            else{
+//                isArmstrong = false;
+//                break;
+//            }
+//            left++;
+//            right--;
+//        }
+//
+
+
+//  armstrong number again
+
+//        System.out.print("Enter number:");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        double sum  = 0;
+//        String conNum = String.valueOf(number);
+//        while(number > 0){
+//            int midNumber = number % 10;
+//            sum = sum + Math.pow(midNumber,conNum.length());
+//            number = number / 10;
+//        }
+//       if(sum == Integer.parseInt(conNum)){
+//           System.out.println("Yes");
+//       }
+//       else{
+//           System.out.println("No");
+//       }
+
+
+//        given a= 56, b = 98
+
+//        int a =72;
+//        int b= 120;
+//        int hcf = 0;
+//        int lcm;
+//        int largeNum,smallNum;
+//        if(a > b){
+//            largeNum = a;
+//            smallNum = b;
+//        }
+//        else{
+//            largeNum = b;
+//            smallNum = a;
+//        }
+//         while(largeNum % smallNum != 0){
+//             hcf = largeNum % smallNum;
+//             largeNum = smallNum;
+//             smallNum = hcf;
+//         }
+//
+//
+//         lcm  = (a*b)/hcf;
+//        System.out.println(lcm);
+//        System.out.println(hcf);
+
+//        System.out.println("Enter your letter: ");
+//        Scanner scanner = new Scanner(System.in);
+//        char character = scanner.next().charAt(0);
+//        if(character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u' || character == 'A' || character == 'E' || character == 'I' || character == 'O' || character == 'U') {
+//            System.out.println("Vowel");
+//        }
+//        else{
+//            System.out.println("Consonant");
+//        }
+
+//        find whether a number is a strong number or not
+
+//        System.out.println("Enter Number:");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        int sum = 0;
+//        for(int i = 1; i <= number/2; i++){
+//            if(number % i == 0){
+//                sum = sum + i;
+//            }
+//        }
+//        if(sum == number){
+//            System.out.println("Strong Number");
+//        }
+//        else{
+//            System.out.println("Not Strong Number");
+//        }
+
+//Check Leap Year Or Not
+
+//        System.out.println("Enter year value:");
+//        Scanner sc = new Scanner(System.in);
+//        int year = sc.nextInt();
+//        if(year % 4 == 0 && year % 100 != 0){
+//            System.out.println("Leap year");
+//        }
+//        else if(year % 4 ==0 && (year % 100 == 0 && year % 400 == 0))
+//        {
+//            System.out.println("Leap year");
+//        }
+//        else{
+//            System.out.println("Not a leap year");
+//        }
+
+//        Sum Of A Digits Of Number
+
+//        System.out.println("Enter Digits:");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        int sum = 0;
+//        while(number > 0) {
+//            sum = sum + number % 10;
+//            number = number / 10;
+//        }
+//        System.out.println(sum);
+
+//        Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August.
+
+//
+//        int totalDays = 31;
+//        System.out.println(totalDays/2 + " days");
+
+//        System.out.println("Keep entering positive or negative number or 0 to terminate the program: ");
+//        Scanner scanner = new Scanner(System.in);
+//
+//        int sop = 0;
+//        int son = 0;
+//        while(true){
+//            int input = scanner.nextInt();
+//            if(input == 0){
+//                break;
+//            }
+//            else if(input > 0){
+//                sop = sop + input;
+//            }
+//            else{
+//                son = son + input;
+//            }
+//        }
+//
+//        System.out.println("SOP: " + sop);
+//        System.out.println("SON: " + son);
+
 
     }
 
