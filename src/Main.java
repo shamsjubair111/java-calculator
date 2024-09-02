@@ -736,7 +736,27 @@ public class Main {
 //           System.out.println("Not Armstrong Number");
 //       }
 
+//        Find if a number is palindrome or not
 
+//        System.out.println("Enter your number to see whether it is palindrom or not: ");
+//        Scanner scanner = new Scanner(System.in);
+//        String input = scanner.nextLine();
+//        String inputString = String.valueOf(input);
+//        int left = 0;
+//        int right = inputString.length() -1;
+//        boolean isPalindrom = false;
+//        while(left < right) {
+//            if(inputString.charAt(left) == inputString.charAt(right)) {
+//                isPalindrom = true;
+//            }
+//            else{
+//                isPalindrom = false;
+//                break;
+//            }
+//            left++;
+//            right--;
+//        }
+//        System.out.println(isPalindrom);
 
     }
 
