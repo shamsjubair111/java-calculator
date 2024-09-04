@@ -891,6 +891,27 @@ public class Main {
 //        System.out.println("SON: " + son);
 
 
+
+//        Switch Cases
+
+        System.out.println("Enter Your Data: ");
+        Scanner scanner = new Scanner(System.in);
+        String data = scanner.nextLine();
+
+        switch(data){
+            case "jubair":
+                System.out.println("Jubair");
+                break;
+            case "ananya":
+                System.out.println("Ananya");
+                break;
+            default:
+                System.out.println("Invalid input");
+                break;
+
+        }
+
+
     }
 
 }
