@@ -898,18 +898,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String data = scanner.nextLine();
 
-        switch(data){
-            case "jubair":
-                System.out.println("Jubair");
-                break;
-            case "ananya":
-                System.out.println("Ananya");
-                break;
-            default:
-                System.out.println("Invalid input");
-                break;
-
-        }
+       
 
 
     }
