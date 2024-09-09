@@ -894,9 +894,68 @@ public class Main {
 
 //        Switch Cases
 
-        System.out.println("Enter Your Data: ");
-        Scanner scanner = new Scanner(System.in);
-        String data = scanner.nextLine();
+//        System.out.println("Enter Programming Language To See Framework: ");
+//        Scanner scanner = new Scanner(System.in);
+//        String input = scanner.nextLine();
+
+//        switch (input) {
+//            case "Java":
+//                System.out.println("Spring Boot");
+//                break;
+//                case "Python":
+//                    System.out.println("Flask");
+//                    break;
+//
+//            case "java":
+//                System.out.println("Android Studio");
+//                break;
+//
+//            default:
+//                System.out.println("Language Not Familiar");
+//        }
+
+//        switch(input){
+//            case "Java" -> System.out.println("Spring Boot");
+//            case "Python" -> System.out.println("Python");
+//            default -> System.out.println("Java");
+//        }
+
+
+//        nested switch
+
+        System.out.println("Enter Name: ");
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        System.out.println("Enter Age:");
+        int age = sc.nextInt();
+//        switch(name){
+//            case "jubair":
+//                System.out.println("Welcome jubair");
+//                switch(age){
+//                    case 25:
+//                        System.out.println("Young");
+//                        break;
+//                    default:
+//                        System.out.println("Old");
+//                }
+//                break;
+//            default:
+//                System.out.println("Error");
+//        }
+//
+
+
+        switch(name){
+            case "jubair" -> {
+                System.out.println("Welcome Jubair");
+                switch(age){
+                    case 25 -> System.out.println("Young");
+                    default -> System.out.println("Old");
+                }
+            }
+            default -> System.out.println("Error");
+        }
+
 
        
 
