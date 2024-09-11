@@ -1,8 +1,3 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -923,11 +918,11 @@ public class Main {
 
 //        nested switch
 
-        System.out.println("Enter Name: ");
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        System.out.println("Enter Age:");
-        int age = sc.nextInt();
+//        System.out.println("Enter Name: ");
+//        Scanner sc = new Scanner(System.in);
+//        String name = sc.nextLine();
+//        System.out.println("Enter Age:");
+//        int age = sc.nextInt();
 //        switch(name){
 //            case "jubair":
 //                System.out.println("Welcome jubair");
@@ -944,22 +939,46 @@ public class Main {
 //        }
 //
 
+//
+//        switch(name){
+//            case "jubair" -> {
+//                System.out.println("Welcome Jubair");
+//                switch(age){
+//                    case 25 -> System.out.println("Young");
+//                    default -> System.out.println("Old");
+//                }
+//            }
+//            default -> System.out.println("Error");
+//        }
 
-        switch(name){
-            case "jubair" -> {
-                System.out.println("Welcome Jubair");
-                switch(age){
-                    case 25 -> System.out.println("Young");
-                    default -> System.out.println("Old");
-                }
-            }
-            default -> System.out.println("Error");
-        }
+
+//        System.out.println(sum(1,2));
 
 
-       
+
+//        String name = "jubair";
+//        printName(name);
+
+//        int a= 10;
+//        int b=20;
+//        b = b+2;
+//        a = b;
+//
+//
+//        System.out.println(a +" "+ b);
 
 
     }
+
+//   static int sum (int a, int b) {
+//        return a+b;
+//    }
+
+
+//    static void printName(String name){
+//        name = "Randy";
+//
+//    }
+
 
 }
