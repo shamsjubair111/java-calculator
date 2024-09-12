@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -920,11 +923,11 @@ public class Main {
 
 //        nested switch
 
-//        System.out.println("Enter Name: ");
-//        Scanner sc = new Scanner(System.in);
-//        String name = sc.nextLine();
-//        System.out.println("Enter Age:");
-//        int age = sc.nextInt();
+        System.out.println("Enter Name: ");
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        System.out.println("Enter Age:");
+        int age = sc.nextInt();
 //        switch(name){
 //            case "jubair":
 //                System.out.println("Welcome jubair");
@@ -942,90 +945,21 @@ public class Main {
 //
 
 
-//        switch(name){
-//            case "jubair" -> {
-//                System.out.println("Welcome Jubair");
-//                switch(age){
-//                    case 25 -> System.out.println("Young");
-//                    default -> System.out.println("Old");
-//                }
-//            }
-//            default -> System.out.println("Error");
-//        }
+        switch(name){
+            case "jubair" -> {
+                System.out.println("Welcome Jubair");
+                switch(age){
+                    case 25 -> System.out.println("Young");
+                    default -> System.out.println("Old");
+                }
+            }
+            default -> System.out.println("Error");
+        }
 
 
-//        java functions and methods
-
-//        1. Take input of two numbers and print the sum
-
-//        Scanner scanner = new Scanner(System.in);
-//
-//       while(true){
-//           System.out.println("Enter First Number:");
-//           int firstNum = scanner.nextInt();
-//           System.out.println("Enter Second Number:");
-//           int secondNum = scanner.nextInt();
-//           if(firstNum != 0 && secondNum != 0) {
-//               int result = findSum(firstNum,secondNum);
-//               System.out.println(result);
-//           }
-//           else {
-//               System.out.println("Invalid Number");
-//               break;
-//           }
-//
-//       }
-//
-//
-//
-
-
-//        Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.
-
-        System.out.println("Enter Three Numbers: ");
-        Scanner scanner = new Scanner(System.in);
-        int firstNum = scanner.nextInt();
-        int secondNum = scanner.nextInt();
-        int thirdNum = scanner.nextInt();
-
-//        findMax(firstNum, secondNum, thirdNum);
-
-
-
-
+       
 
 
     }
-
-//    static void findMax(int firstNum, int secondNum, int thirdNum) {
-//
-//        if(firstNum < 0 || secondNum < 0 || thirdNum < 0 ) {
-//            System.out.println("Invalid Input");
-//        }
-//        else if( firstNum == secondNum || firstNum == thirdNum || secondNum == thirdNum ) {
-//            System.out.println("the values of given inputs must not be equal");
-//        }
-//        else{
-//            if( firstNum > secondNum && firstNum > thirdNum){
-//                System.out.println(firstNum + " " + "is the largest number");
-//            }
-//            else if( secondNum > firstNum && secondNum > thirdNum){
-//                System.out.println(secondNum + " " + "is the largest number");
-//            }
-//            else{
-//                System.out.println(thirdNum + " " + "is the largest number");
-//
-//            }
-//        }
-//
-//    }
-
-
-
-
-
-//    static int findSum(int firstNum, int secondNum) {
-//         return firstNum + secondNum;
-//    }
 
 }
