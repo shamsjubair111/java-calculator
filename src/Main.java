@@ -923,11 +923,11 @@ public class Main {
 
 //        nested switch
 
-        System.out.println("Enter Name: ");
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        System.out.println("Enter Age:");
-        int age = sc.nextInt();
+//        System.out.println("Enter Name: ");
+//        Scanner sc = new Scanner(System.in);
+//        String name = sc.nextLine();
+//        System.out.println("Enter Age:");
+//        int age = sc.nextInt();
 //        switch(name){
 //            case "jubair":
 //                System.out.println("Welcome jubair");
@@ -945,21 +945,156 @@ public class Main {
 //
 
 
-        switch(name){
-            case "jubair" -> {
-                System.out.println("Welcome Jubair");
-                switch(age){
-                    case 25 -> System.out.println("Young");
-                    default -> System.out.println("Old");
-                }
-            }
-            default -> System.out.println("Error");
+//        switch(name){
+//            case "jubair" -> {
+//                System.out.println("Welcome Jubair");
+//                switch(age){
+//                    case 25 -> System.out.println("Young");
+//                    default -> System.out.println("Old");
+//                }
+//            }
+//            default -> System.out.println("Error");
+//        }
+
+//        Functions / Methods in java
+
+    //        Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.
+
+//        System.out.println("Enter Your Numbers: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int firstNum = scanner.nextInt();
+//        int secondNum = scanner.nextInt();
+//        int thirdNum = scanner.nextInt();
+//
+//        findMax(firstNum, secondNum, thirdNum);
+//        findMin(firstNum, secondNum, thirdNum);
+
+
+//        Define a program to find out whether a given number is even or odd.
+
+//        System.out.println("Enter Number: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int input = scanner.nextInt();
+//        findEvenOrOdd( input);
+
+
+//        A person is eligible to vote if his/her age is greater than or equal to 18. Define a method to find out if he/she is eligible to vote.
+
+//        System.out.println("Enter Age: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int age = scanner.nextInt();
+//        checkEligibility(age);
+
+//        Write a program to print the sum of two numbers entered by user by defining your own method.
+
+//        System.out.println("Enter Two Numbers: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int firstNum = scanner.nextInt();
+//        int secondNum = scanner.nextInt();
+//        findSum(firstNum, secondNum);
+
+
+
+
+//        Define a method that returns the product of two numbers entered by user.
+
+//        System.out.println("Enter Two Number: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int first = scanner.nextInt();
+//        int second = scanner.nextInt();
+//        findProduct(first,second);
+
+// Write a program to print the circumference and area of a circle of radius entered by user by defining your own method.
+
+//        System.out.println("Enter Radius: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int input = scanner.nextInt();
+//
+//        findAreaAndCircumference(input);
+
+//        Define a method to find out if a number is prime or not.
+
+        System.out.println("Enter number to see whether it is a prime number or not");
+        Scanner scanner = new Scanner(System.in);
+        int input = scanner.nextInt();
+
+        if(input <=0){
+            System.out.println("Invalid input");
+        }
+        else{
+            for()
         }
 
 
-       
+
+
 
 
     }
+
+//    static void findAreaAndCircumference(int input) {
+//        double area = 3.1416 * Math.pow(input, 2);
+//        double circumference = 2 * 3.1416 * input;
+//        System.out.println("Area is: " + area);
+//        System.out.println("Circumference is: " + circumference);
+//    }
+
+//    static void findProduct(int first, int second) {
+//        int result = first*second;
+//        System.out.println("The answer is: " + result);
+//    }
+
+//    static void findSum(int firstNum, int secondNum) {
+//        System.out.println("The sum is: " + (firstNum+secondNum));
+//    }
+
+//    static void findMax(int ...num){
+//
+//        int i = num.length;
+//        int max = 0;
+//        while( i > 0){
+//            if(num[i-1] > max){
+//                max = num[i-1];
+//            }
+//            i--;
+//        }
+//        System.out.println("Maximum Number is: " + max);
+//
+//    }
+
+
+//    static void findMin(int ...num){
+//
+//        int i = num.length;
+//        int min = 999999;
+//        while( i > 0){
+//            if(num[i-1] < min){
+//                min = num[i-1];
+//            }
+//            i--;
+//        }
+//        System.out.println("Minimum Number is: " + min);
+//
+//    }
+
+//    static void findEvenOrOdd(int input) {
+//        if(input % 2 == 0){
+//            System.out.println("Even");
+//        }
+//        else{
+//            System.out.println("Odd");
+//        }
+//    }
+
+
+//    static void checkEligibility(int age) {
+//        if(age  >= 18){
+//            System.out.println("Eligible to vote");
+//        }
+//        else{
+//            System.out.println("Not eligible to vote");
+//        }
+//    }
+
 
 }
