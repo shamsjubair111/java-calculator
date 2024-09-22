@@ -1014,23 +1014,133 @@ public class Main {
 
 //        Define a method to find out if a number is prime or not.
 
-        System.out.println("Enter number to see whether it is a prime number or not");
-        Scanner scanner = new Scanner(System.in);
-        int input = scanner.nextInt();
+//        System.out.println("Enter number to see whether it is a prime number or not");
+//        Scanner scanner = new Scanner(System.in);
+//        int input = scanner.nextInt();
+//        isPrime(input);
 
-        if(input <=0){
-            System.out.println("Invalid input");
-        }
-        else{
-            for()
-        }
+        /**
 
+        Write a program that will ask the user to enter his/her marks (out of 100). Define a method that will display grades according to the marks entered as below:
+
+
+        Marks        Grade
+        91-100         AA
+        81-90          AB
+        71-80          BB
+        61-70          BC
+        51-60          CD
+        41-50          DD
+                <=40          Fail
+
+         **/
+
+//        System.out.println("Enter marks out of 100");
+//        Scanner scanner = new Scanner(System.in);
+//        int mark = scanner.nextInt();
+//      if(mark < 0 || mark > 100){
+//          System.out.println("Invalid mark");
+//      }
+//      else{
+//          checkGrade(mark);
+//      }
+
+
+//        Write a program to print the factorial of a number by defining a method named 'Factorial'. Factorial of any number n is represented by n! and is equal to 1 * 2 * 3 * .... * (n-1) *n. E.g.-
+//                4! = 1 * 2 * 3 * 4 = 24
+//        3! = 3 * 2 * 1 = 6
+//        2! = 2 * 1 = 2
+//        Also,
+//                1! = 1
+//        0! = 1
+
+//
+//        System.out.println("Enter Number: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        if(number <0){
+//            System.out.println("Invalid Number");
+//
+//        }
+//        else{
+//           int result =  findFactorial(number);
+//            System.out.println(result);
+//
+//        }
+
+//        Write a function to find if a number is a palindrome or not. Take number as parameter.
 
 
 
 
 
     }
+
+//    static void findFactorial(int number){
+//        int result = 1;
+//        for(int i = number ; i>=2 ;i--){
+//            result = result * i;
+//        }
+//        System.out.println(result);
+//
+//    }
+
+//    static int findFactorial(int number){
+//        if(number<2) return 1;
+//        if(number==2) return 2;
+//        return number*findFactorial(number-1);
+//    }
+
+//    static void checkGrade(int mark) {
+//        if(mark <=40){
+//            System.out.println("Fail");
+//        }
+//        else if(mark >=41 && mark <=50){
+//            System.out.println("DD");
+//        } else if (mark >=51 && mark <=60) {
+//            System.out.println("CD");
+//        }
+//        else if(mark >=60 && mark <=70){
+//            System.out.println("BC");
+//
+//        }
+//        else if(mark >=70 && mark <=80){
+//            System.out.println("BB");
+//        }
+//        else if(mark >=80 && mark <=90){
+//            System.out.println("AB");
+//        }
+//        else if(mark >=90 && mark <=100){
+//            System.out.println("AA");
+//        }
+//    }
+
+//    static void isPrime(int input){
+//        boolean isPrime = false;
+//
+//        if(input <=0){
+//            System.out.println("Invalid input");
+//
+//        }
+//        else if(input  == 1){
+//            System.out.println("Enter Any number above 1");
+//
+//
+//        }
+//        else if(input > 1){
+//            for(int i = 2 ; i <=Math.sqrt(input); i++){
+//                if(input % i == 0){
+//                    isPrime = false;
+//                    break;
+//                }
+//                else{
+//                    isPrime = true;
+//                }
+//            }
+//        }
+//
+//        System.out.println(isPrime);
+//    }
 
 //    static void findAreaAndCircumference(int input) {
 //        double area = 3.1416 * Math.pow(input, 2);
