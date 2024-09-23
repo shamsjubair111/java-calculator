@@ -1070,11 +1070,95 @@ public class Main {
 
 //        Write a function to find if a number is a palindrome or not. Take number as parameter.
 
+//        System.out.println("Enter Number: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int input = scanner.nextInt();
+//        String convertedInput = input + "";
+//        boolean result = checkPalindrome(convertedInput);
+//        System.out.println(result);
+
+//fionacci
+//
+//        int n = 7;
+//        int sum = 0;
+//        int previous =0;
+//        int next = 1;
+//        System.out.print(previous + " " + next);
+//        for(int i = 3; i<=n;i++){
+//            sum = previous + next;
+//            previous = next;
+//            next = sum;
+//            System.out.print(" " + sum);
+//        }
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter a: ");
+//        int a = sc.nextInt();
+//        System.out.println("Enter b: ");
+//        int b = sc.nextInt();
+//        System.out.println("Enter c: ");
+//        int c = sc.nextInt();
+//
+//        checkResult(a,b,c);
+
+
+
+//        Write a function that returns all prime numbers between two given numbers. (low 10, high 30)
+
+//        int low = 10;
+//        int high = 30;
+//        String result = "";
+//
+//        while(low <= high){
+//            System.out.println("For " + low);
+//            for(int i = 2; i<=Math.sqrt(low); i++){
+//                if(!(low % i == 0)){
+//                    result = "Yes";
+//
+//                }
+//                else{
+//                    result = "No";
+//                    break;
+//                }
+//            }
+//            System.out.println(result);
+//            low++;
+//        }
 
 
 
 
     }
+
+
+//    static void checkResult(int a, int b, int c){
+//
+//        if(Math.pow(a,2) + Math.pow(b,2) == Math.pow(c,2)){
+//            System.out.println(" Pythagorean triplets");
+//        }
+//        else{
+//            System.out.println("Not Pythagorean triplets");
+//        }
+//    }
+
+//    static boolean checkPalindrome(String convertedInput){
+//        boolean isPalindrome = false;
+//        int left = 0;
+//        int right = convertedInput.length()-1;
+//        while(left <  right){
+//            if(convertedInput.charAt(left) == (convertedInput.charAt(right))){
+//                isPalindrome = true;
+//                left++;
+//                right--;
+//            }
+//            else{
+//                isPalindrome = false;
+//                break;
+//            }
+//        }
+//        return isPalindrome;
+//    }
 
 //    static void findFactorial(int number){
 //        int result = 1;
