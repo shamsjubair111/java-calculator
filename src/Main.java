@@ -1119,17 +1119,37 @@ public class Main {
 //                }
 //                else{
 //                    result = "No";
-//                    break;
+//                    break;c
 //                }
 //            }
 //            System.out.println(result);
 //            low++;
 //        }
 
+//        Write a function that returns the sum of first n natural numbers.
+
+//        System.out.print("Enter Input: ");
+//        Scanner sc = new Scanner(System.in);
+//        int input = sc.nextInt();
+//
+//
+//        if(input < 1){
+//            System.out.println("Enter value equal to or  greater than 1");
+//        }
+//        else{
+//            findResult(input);
+//        }
 
 
 
     }
+
+//    static void findResult(int input){
+//        int sum = 0;
+//        sum = sum + ((input*(input+1))/2);
+//        System.out.println("Result is: " + sum);
+//
+//    }
 
 
 //    static void checkResult(int a, int b, int c){
