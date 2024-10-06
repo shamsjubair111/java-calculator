@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -1141,8 +1138,81 @@ public class Main {
 //        }
 
 
+//        swap the value of array in mentioned indices
+
+//        int[] demoArray = {1, 3, 23, 9, 18};
+//
+//        System.out.println("Original Array: " + Arrays.toString(demoArray));
+//
+//        swapValue(1,3,99,100, demoArray);
+
+
+//        find max value of array
+
+
+//        int[] demoArray = {25, 3, 23, 9, 81};
+//
+//        int maxValue = maxValue(demoArray);
+//        System.out.println("Max value is: " + maxValue);
+
+//        swap array values
+
+
+
+        int[] demoArray = {25, 3, 23, 9, 81};
+        System.out.println("Original Array: " + Arrays.toString(demoArray));
+        swapArray(demoArray);
+
+
+
+
+
+
 
     }
+
+    public static void swapArray(int[] demoArray ){
+        int start = 0;
+        int end = demoArray.length-1;
+
+       for(int i= 0; i<demoArray.length;i++){
+           if(start != end){
+               demoArray[start] = demoArray[end];
+               start++;
+               end--;
+           }
+           else{
+               continue;
+           }
+       }
+
+
+        System.out.println("Final Array: " + Arrays.toString(demoArray));
+    }
+
+//    public static int maxValue(int[] demoArray){
+//        int max = 0;
+//        for(int i = 0; i<demoArray.length;i++){
+//            if(demoArray[i] > max){
+//                max = demoArray[i];
+//            }
+//            else{
+//                continue;
+//            }
+//        }
+//        return max;
+//    }
+
+
+//    public static void swapValue(int firstIndex, int secondIndex, int firstValue, int secondValue, int[] demoArray){
+//
+//        demoArray[firstIndex] = firstValue;
+//        demoArray[secondIndex] = secondValue;
+//
+//        System.out.println("New Array :" + Arrays.toString(demoArray));
+//
+//
+//    }
 
 //    static void findResult(int input){
 //        int sum = 0;
