@@ -1159,9 +1159,26 @@ public class Main {
 
 
 
-        int[] demoArray = {25, 3, 23, 9, 81};
-        System.out.println("Original Array: " + Arrays.toString(demoArray));
-        swapArray(demoArray);
+//        int[] demoArray = {25, 3, 23, 9, 81};
+//        System.out.println("Original Array: " + Arrays.toString(demoArray));
+//        swapArray(demoArray);
+
+//        int[] nums = {8,1,2,2,3};
+//
+//        int[] result = new int[nums.length];
+//
+//        for(int i =0; i<=nums.length;i++){
+//            int numberCount = 0;
+//            for(int j = 0; j<nums.length;j++){
+//                if(i !=j){
+//                    if(nums[i]>nums[j]){
+//                        numberCount++;
+//                    }
+//                }
+//            }
+//            result[i] = numberCount;
+//        }
+
 
 
 
@@ -1171,24 +1188,24 @@ public class Main {
 
     }
 
-    public static void swapArray(int[] demoArray ){
-        int start = 0;
-        int end = demoArray.length-1;
-
-       for(int i= 0; i<demoArray.length;i++){
-           if(start != end){
-               demoArray[start] = demoArray[end];
-               start++;
-               end--;
-           }
-           else{
-               continue;
-           }
-       }
-
-
-        System.out.println("Final Array: " + Arrays.toString(demoArray));
-    }
+//    public static void swapArray(int[] demoArray ){
+//        int start = 0;
+//        int end = demoArray.length-1;
+//
+//       for(int i= 0; i<demoArray.length;i++){
+//           if(start != end){
+//               demoArray[start] = demoArray[end];
+//               start++;
+//               end--;
+//           }
+//           else{
+//               continue;
+//           }
+//       }
+//
+//
+//        System.out.println("Final Array: " + Arrays.toString(demoArray));
+//    }
 
 //    public static int maxValue(int[] demoArray){
 //        int max = 0;
